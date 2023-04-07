@@ -13,9 +13,11 @@ public class Exam03 {
 		
 		// nextline, nextInt
 		
+		int age = sn.nextInt(); // 입력 버퍼 남아있는 엔터를 제거하라
+		// 이유는 엔터를 제거하지않으면 string name= sn.nextline()이 문장에서 엔터를
+		// 문장으로 인식해서 버퍼 남은 엔터를 name 변수에 넣는다.
 		String name = sn. nextLine();
 		String address= sn.nextLine();
-		int age = sn.nextInt();
 		
 		System.out.println("이름 : " + name);
 		System.out.println("주소 : " + address);

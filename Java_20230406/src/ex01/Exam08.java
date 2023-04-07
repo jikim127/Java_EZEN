@@ -43,6 +43,7 @@ public class Exam08 {
 			System.out.println("프로그램 종료");
 		}
 }
+			
 
 	
 

@@ -1,6 +1,10 @@
 package ex01;
 
+import java.util.Scanner;
+
 public class FlowEx5 {
+	
+	
 
 	public static void main(String[] args) {
 
@@ -10,9 +14,9 @@ public class FlowEx5 {
 		System.out.println("점수를 입력해주세요.>");
 		
 		Scanner sc = new Scanner(System.in);
-		score = scanner.nextInt(); 
+		score = sc.nextInt(); 
 		
-		System.out.println("당신의 점수는 %d 입니다.%n", score);
+		System.out.println("당신의 점수는 %d 입니다.%n"+ score);
 		
 		if (score >= 90) {
 			grade = 'A';

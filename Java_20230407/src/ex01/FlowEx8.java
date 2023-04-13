@@ -13,7 +13,6 @@ public class FlowEx8 {
 		
 		char gender = idnum.charAt(7);
 		
-		switch
 		
 		
 		

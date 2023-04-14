@@ -23,7 +23,7 @@ public class Exam070 {
 		
 		System.out.println("이번주 로또번호 :");
 		for(int i=0; i<6; i++)
-			System.out.println(lotto[i] + ", `");
+			System.out.println(lotto[i] + ", ");
 		
 		}
 		

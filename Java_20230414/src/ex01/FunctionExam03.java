@@ -12,13 +12,13 @@ public class FunctionExam03 {
 		int result =add();
 		System.out.println(result); // 
 		
-		int result2 =convertInt();
-		System.out.println(result2);
+		double df =convertInt();
+		System.out.println((int)df);
 		
 		System.out.println("프로그램 끝");
 	}
 
-	
+	 
 // 3.	
 		static int add() {
 			int result = (10+20);
@@ -27,9 +27,8 @@ public class FunctionExam03 {
 		}
 		
 // 3.	
-		static int convertInt(){
-			double result2 = 1.1;
-			return (int)result2;
+		static double convertInt(){
+			return 1.1;
 				
 		}
 	

@@ -25,7 +25,7 @@ public class Exam08 {
 		//랜덤번호 출력
 		System.out.print("이번주 로또 번호는 :");
 		for(int i = 0; i < lotto.length; i++)
-			System.out.print( ", "+lotto[i]);
+			System.out.print(lotto[i] + ", ");
 		
 		}
 		

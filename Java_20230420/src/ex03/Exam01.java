@@ -20,7 +20,7 @@ public class Exam01 {
 
 	static void action (Robot r) { // like... int[] num = new int[]; (int=Robot) Line 38번에서 보낸걸 21번에 Robot r 로 받음.
 		
-		if(r instanceof DanceRobot) {
+		if(r instanceof DanceRobot) { //r가 DanceRobot객체를 참조하거나 DanceRobot를 상속하고 있는 객체이면 true)
 			DanceRobot d =(DanceRobot)r;
 			d.dance();
 		}else if(r instanceof SingRobot) {

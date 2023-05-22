@@ -10,16 +10,13 @@ public class Exam5x06 {
 		int money = 2680;
 		System.out.println("money="+money);
 		
-		int = tmp;
+		int mon = 0;
 		for(int i=0; i<coinUnit.length; i++) {
-			 = money / 500;
-			
-			
-			System.out.println("500원: "+money);
-			System.out.println("100원: "+money);
-			System.out.println("50원: "+money);
-			System.out.println("10원: "+money);
+			 mon = (int)(money / coinUnit[i]);
+			 money -= coinUnit[i]*mon;  
+			 
+			 System.out.println(coinUnit[i]+"원: "+mon+"개"); 
 		}
 	}
-
 }
+ 
